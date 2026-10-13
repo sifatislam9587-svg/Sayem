@@ -1,0 +1,861 @@
+[
+ {
+  "slug": "autopost-agent",
+  "name": "Autopost Agent",
+  "title": "Autopost Agent, an AI agent that plans and publishes social content",
+  "label": "Product",
+  "year": "2026",
+  "role": "Founder & Lead AI Engineer",
+  "duration": "6 months",
+  "big": "AI Content",
+  "screen": "Drafted, approved, posted",
+  "tone": 0,
+  "summary": "An agent that turns one brief into on-brand posts, schedules them across networks, and learns from what performs.",
+  "challenge": "Marketing teams spent hours rewriting the same idea for every network, then chasing approvals in chat threads.",
+  "solution": "An LLM drafting step with brand-voice memory, a one-click approval inbox, and a scheduler that posts and reports back automatically.",
+  "features": [
+   "Brand-voice memory per client",
+   "Approval inbox in Slack",
+   "Auto-scheduling by best time",
+   "Weekly performance digest"
+  ],
+  "results": [
+   {
+    "value": "5x",
+    "label": "faster content production"
+   },
+   {
+    "value": "12+",
+    "label": "networks supported"
+   },
+   {
+    "value": "<2 min",
+    "label": "brief to draft"
+   }
+  ],
+  "stack": [
+   "Python",
+   "OpenAI",
+   "n8n",
+   "PostgreSQL",
+   "Redis",
+   "Docker"
+  ]
+ },
+ {
+  "slug": "relay-agent-hub",
+  "name": "Relay",
+  "title": "Relay, an orchestration hub for AI agents",
+  "label": "Product",
+  "year": "2026",
+  "role": "Founder & Lead AI Engineer",
+  "duration": "5 months",
+  "big": "Agent Hub",
+  "screen": "Many agents, one control room",
+  "tone": 1,
+  "summary": "A control layer that routes tasks between specialist AI agents, tracks every step, and hands off to humans when needed.",
+  "challenge": "Teams had a pile of disconnected bots with no shared memory, no routing and no way to see what each one was doing.",
+  "solution": "A router that picks the right agent per task, a shared memory store, human-in-the-loop checkpoints and a full run history.",
+  "features": [
+   "Task routing between agents",
+   "Shared long-term memory",
+   "Human approval checkpoints",
+   "Replayable run history"
+  ],
+  "results": [
+   {
+    "value": "8",
+    "label": "agents in one hub"
+   },
+   {
+    "value": "99.5%",
+    "label": "tasks completed unattended"
+   },
+   {
+    "value": "-60%",
+    "label": "manual handoffs"
+   }
+  ],
+  "stack": [
+   "Python",
+   "LangChain",
+   "Claude",
+   "PostgreSQL",
+   "Redis",
+   "Docker"
+  ]
+ },
+ {
+  "slug": "frontline-support-agent",
+  "name": "Frontline",
+  "title": "Frontline, an AI support agent that resolves tickets",
+  "label": "Client",
+  "year": "2025",
+  "role": "AI Automation Lead",
+  "duration": "4 months",
+  "big": "Support AI",
+  "screen": "Resolved before a human looks",
+  "tone": 2,
+  "summary": "An AI agent that reads incoming tickets, answers from the knowledge base, and escalates only what truly needs a person.",
+  "challenge": "Support staff were buried in repetitive questions, and urgent issues waited in the same queue as simple ones.",
+  "solution": "Intent classification, retrieval over the help center, automatic replies with citations, and priority escalation with full context.",
+  "features": [
+   "Ticket triage by intent and urgency",
+   "Answers grounded in your docs",
+   "Smart escalation with summary",
+   "Multilingual replies"
+  ],
+  "results": [
+   {
+    "value": "68%",
+    "label": "tickets resolved by AI"
+   },
+   {
+    "value": "-75%",
+    "label": "first response time"
+   },
+   {
+    "value": "4.7/5",
+    "label": "customer satisfaction"
+   }
+  ],
+  "stack": [
+   "Python",
+   "OpenAI",
+   "Pinecone",
+   "Node.js",
+   "PostgreSQL",
+   "AWS"
+  ]
+ },
+ {
+  "slug": "leadloop-extension",
+  "name": "Leadloop Extension",
+  "title": "Leadloop Extension, AI lead capture and follow-up in your browser",
+  "label": "Product",
+  "year": "2026",
+  "role": "Founder & Lead AI Engineer",
+  "duration": "Ongoing",
+  "big": "Leadloop",
+  "screen": "Lead saved. Enriched. Scored.",
+  "tone": 0,
+  "summary": "A browser extension that captures leads from any page, enriches them with AI, and keeps follow-ups moving.",
+  "challenge": "Sales teams copied prospect details by hand, lost context between tabs, and followed up too late.",
+  "solution": "A one-click capture panel, LLM-based enrichment and scoring, real-time CRM sync and automated follow-up sequences.",
+  "features": [
+   "One-click lead capture",
+   "AI enrichment and scoring",
+   "Real-time CRM sync",
+   "Automated follow-up loops"
+  ],
+  "results": [
+   {
+    "value": "-6 hrs",
+    "label": "manual entry per rep, weekly"
+   },
+   {
+    "value": "2x",
+    "label": "faster replies to warm leads"
+   },
+   {
+    "value": "100%",
+    "label": "data kept in your workspace"
+   }
+  ],
+  "stack": [
+   "TypeScript",
+   "Chrome Extensions",
+   "OpenAI",
+   "Node.js",
+   "PostgreSQL"
+  ],
+  "link": {
+   "label": "See the Leadloop section",
+   "href": "/#leadloop"
+  }
+ },
+ {
+  "slug": "ops-time-reduction",
+  "name": "Ops Automation",
+  "title": "Ops automation that cut 40 hours of weekly manual work to 2",
+  "label": "Internal",
+  "year": "2026",
+  "role": "Lead AI Engineer",
+  "duration": "3 weeks",
+  "big": "40 hrs to 2",
+  "screen": "Reports, reminders, handoffs",
+  "tone": 3,
+  "summary": "End-to-end workflow automation that replaced a week of spreadsheet, email and copy-paste work with a monitored pipeline.",
+  "challenge": "Operations ran on spreadsheets and inbox rules. Every report and handoff was manual, slow and error-prone.",
+  "solution": "Mapped each recurring task, then automated it with triggers, LLM steps for reading and writing, and alerting when anything fails.",
+  "features": [
+   "Process mapping and audit",
+   "Trigger-based workflows",
+   "LLM steps for reading and writing",
+   "Failure alerts and retries"
+  ],
+  "results": [
+   {
+    "value": "40 to 2 hrs",
+    "label": "manual work per week"
+   },
+   {
+    "value": "0",
+    "label": "missed handoffs since launch"
+   },
+   {
+    "value": "3 weeks",
+    "label": "audit to production"
+   }
+  ],
+  "stack": [
+   "n8n",
+   "Python",
+   "OpenAI",
+   "Google Sheets",
+   "Slack",
+   "Docker"
+  ]
+ },
+ {
+  "slug": "whatsapp-ai-assistant",
+  "name": "WhatsApp AI Assistant",
+  "title": "AI sales and support assistant on WhatsApp for a regional carrier",
+  "label": "Client",
+  "year": "2025",
+  "role": "AI Automation Lead",
+  "duration": "7 months",
+  "big": "WhatsApp AI",
+  "screen": "Answers in seconds, 24/7",
+  "tone": 4,
+  "summary": "A WhatsApp assistant that answers plan questions, qualifies buyers and hands warm leads to the sales team.",
+  "challenge": "The carrier's team could not keep up with message volume, and leads went cold overnight.",
+  "solution": "An LLM assistant on the WhatsApp Business API with approved templates, CRM lookups, qualification flows and live handoff to agents.",
+  "features": [
+   "Approved template flows",
+   "Lead qualification in chat",
+   "CRM lookups for each customer",
+   "Live handoff to a human agent"
+  ],
+  "results": [
+   {
+    "value": "24/7",
+    "label": "instant replies"
+   },
+   {
+    "value": "+38%",
+    "label": "qualified leads"
+   },
+   {
+    "value": "-70%",
+    "label": "agent workload"
+   }
+  ],
+  "stack": [
+   "WhatsApp API",
+   "OpenAI",
+   "Node.js",
+   "PostgreSQL",
+   "Redis",
+   "n8n"
+  ]
+ },
+ {
+  "slug": "agent-guardrails-kit",
+  "name": "Agent Guardrails Kit",
+  "title": "Agent Guardrails Kit, safe defaults for AI agents",
+  "label": "Open source",
+  "year": "2025",
+  "role": "Creator & Maintainer",
+  "duration": "2 months",
+  "big": "Guardrails",
+  "screen": "Unsafe actions blocked",
+  "tone": 5,
+  "summary": "An open source kit that wraps AI agents with permission checks, output validation and audit logs.",
+  "challenge": "Agents with tool access can delete data, leak details or loop forever when nothing sits between the model and the tools.",
+  "solution": "A policy layer that approves each tool call, validates outputs against schemas, caps spend and loops, and logs everything.",
+  "features": [
+   "Per-tool permission policies",
+   "Schema-checked outputs",
+   "Spend and loop limits",
+   "Tamper-evident audit log"
+  ],
+  "results": [
+   {
+    "value": "0",
+    "label": "unsafe actions in test suite"
+   },
+   {
+    "value": "120+",
+    "label": "adversarial prompts tested"
+   },
+   {
+    "value": "MIT",
+    "label": "open source license"
+   }
+  ],
+  "stack": [
+   "Python",
+   "TypeScript",
+   "Pydantic",
+   "PostgreSQL",
+   "Docker"
+  ],
+  "link": {
+   "label": "View on GitHub",
+   "href": "#"
+  }
+ },
+ {
+  "slug": "listing-ai-concierge",
+  "name": "Listing Concierge",
+  "title": "Listing Concierge, an AI assistant for a property marketplace",
+  "label": "Client",
+  "year": "2024",
+  "role": "AI Automation Lead",
+  "duration": "8 months",
+  "big": "Concierge",
+  "screen": "Inquiry to viewing, automated",
+  "tone": 2,
+  "summary": "An AI concierge that answers buyer questions, matches listings and books viewings without agent involvement.",
+  "challenge": "Agents answered the same questions all day, and inquiries sent after hours were rarely converted.",
+  "solution": "Retrieval over listings, conversational matching, calendar booking and automatic reminders across email and WhatsApp.",
+  "features": [
+   "Natural-language listing search",
+   "Automatic viewing booking",
+   "Reminders on every channel",
+   "Agent summary after each chat"
+  ],
+  "results": [
+   {
+    "value": "+45%",
+    "label": "inquiries converted"
+   },
+   {
+    "value": "<30 s",
+    "label": "first reply"
+   },
+   {
+    "value": "-12 hrs",
+    "label": "agent time saved weekly"
+   }
+  ],
+  "stack": [
+   "Python",
+   "OpenAI",
+   "Next.js",
+   "PostgreSQL",
+   "Calendar API"
+  ]
+ },
+ {
+  "slug": "ai-billing-reconciliation",
+  "name": "Billing Reconciliation",
+  "title": "AI billing reconciliation that matches payments without spreadsheets",
+  "label": "Internal",
+  "year": "2026",
+  "role": "Lead AI Engineer",
+  "duration": "4 months",
+  "big": "Auto Match",
+  "screen": "Every payment, matched",
+  "tone": 1,
+  "summary": "An automation that matches payments to invoices, flags anomalies and drafts the follow-up for overdue accounts.",
+  "challenge": "Finance matched payments by hand every month, and mismatches surfaced weeks late.",
+  "solution": "Scheduled ingestion of payment data, fuzzy and LLM-assisted matching, anomaly flags and drafted reminder emails for review.",
+  "features": [
+   "Automatic payment matching",
+   "Anomaly detection",
+   "Drafted payment reminders",
+   "Month-end report generation"
+  ],
+  "results": [
+   {
+    "value": "97%",
+    "label": "matched automatically"
+   },
+   {
+    "value": "-3 days",
+    "label": "month-end close"
+   },
+   {
+    "value": "0",
+    "label": "missed overdue accounts"
+   }
+  ],
+  "stack": [
+   "Python",
+   "Make",
+   "OpenAI",
+   "PostgreSQL",
+   "Stripe API"
+  ]
+ },
+ {
+  "slug": "ai-reporting-pipeline",
+  "name": "Reporting Pipeline",
+  "title": "AI reporting pipeline that writes the weekly business review",
+  "label": "Internal",
+  "year": "2026",
+  "role": "Lead AI Engineer",
+  "duration": "3 months",
+  "big": "Auto Reports",
+  "screen": "Insights, not spreadsheets",
+  "tone": 3,
+  "summary": "A pipeline that gathers data from every tool and writes a plain-language report with the numbers that changed.",
+  "challenge": "Weekly reports took a full day of exporting, pasting and writing, and were stale by the time they were read.",
+  "solution": "Scheduled data pulls, a warehouse model, LLM summaries of what changed and why, delivered to Slack and email.",
+  "features": [
+   "Automatic data collection",
+   "Plain-language summaries",
+   "Trend and anomaly callouts",
+   "Delivery to Slack and email"
+  ],
+  "results": [
+   {
+    "value": "1 day to 5 min",
+    "label": "report time"
+   },
+   {
+    "value": "9",
+    "label": "data sources unified"
+   },
+   {
+    "value": "Weekly",
+    "label": "delivered on schedule"
+   }
+  ],
+  "stack": [
+   "Python",
+   "n8n",
+   "OpenAI",
+   "BigQuery",
+   "Slack"
+  ]
+ },
+ {
+  "slug": "rag-knowledge-assistant",
+  "name": "Knowledge Assistant",
+  "title": "Knowledge Assistant, a RAG assistant over company documents",
+  "label": "Product",
+  "year": "2025",
+  "role": "Founder & Lead AI Engineer",
+  "duration": "3 months",
+  "big": "RAG Search",
+  "screen": "Ask your documents anything",
+  "tone": 4,
+  "summary": "A retrieval-augmented assistant that answers questions from internal docs with sources attached.",
+  "challenge": "Answers lived in scattered docs, chats and drives, and new hires kept asking the same people.",
+  "solution": "Document ingestion, chunking and embeddings, hybrid retrieval, and grounded answers with citations and access control.",
+  "features": [
+   "Ingests docs, wikis and chats",
+   "Answers with citations",
+   "Respects user permissions",
+   "Feedback loop for quality"
+  ],
+  "results": [
+   {
+    "value": "-80%",
+    "label": "time to find answers"
+   },
+   {
+    "value": "92%",
+    "label": "answer accuracy in review"
+   },
+   {
+    "value": "10k+",
+    "label": "documents indexed"
+   }
+  ],
+  "stack": [
+   "Python",
+   "LangChain",
+   "Pinecone",
+   "OpenAI",
+   "FastAPI",
+   "Docker"
+  ]
+ },
+ {
+  "slug": "crm-autopilot",
+  "name": "CRM Autopilot",
+  "title": "CRM Autopilot, an AI that keeps the CRM clean and current",
+  "label": "Client",
+  "year": "2025",
+  "role": "AI Automation Lead",
+  "duration": "2 months",
+  "big": "CRM Autopilot",
+  "screen": "Updated before you ask",
+  "tone": 5,
+  "summary": "An automation that logs calls and emails, updates deal stages and drafts next steps straight into the CRM.",
+  "challenge": "Reps skipped CRM updates, so forecasts were wrong and follow-ups slipped through.",
+  "solution": "Listeners on email, calls and meetings, LLM summaries mapped to CRM fields, and tasks created automatically.",
+  "features": [
+   "Auto-logged emails and calls",
+   "Deal stage suggestions",
+   "Drafted follow-up tasks",
+   "Duplicate detection and merge"
+  ],
+  "results": [
+   {
+    "value": "-5 hrs",
+    "label": "admin per rep, weekly"
+   },
+   {
+    "value": "+30%",
+    "label": "forecast accuracy"
+   },
+   {
+    "value": "100%",
+    "label": "activities logged"
+   }
+  ],
+  "stack": [
+   "n8n",
+   "OpenAI",
+   "HubSpot API",
+   "Node.js",
+   "PostgreSQL"
+  ]
+ },
+ {
+  "slug": "document-intake-ai",
+  "name": "Document Intake AI",
+  "title": "Document Intake AI, extraction and routing for incoming files",
+  "label": "Client",
+  "year": "2024",
+  "role": "AI Automation Lead",
+  "duration": "2 months",
+  "big": "Doc Intake",
+  "screen": "Files read, sorted, filed",
+  "tone": 0,
+  "summary": "An automation that reads incoming PDFs and images, extracts the fields and routes each document to the right system.",
+  "challenge": "Staff retyped data from invoices, forms and contracts, and mistakes reached the finance system.",
+  "solution": "OCR plus LLM extraction with validation rules, confidence scores and a review queue for anything uncertain.",
+  "features": [
+   "OCR and LLM extraction",
+   "Validation and confidence scores",
+   "Review queue for edge cases",
+   "Auto-filing to storage and ERP"
+  ],
+  "results": [
+   {
+    "value": "96%",
+    "label": "fields extracted correctly"
+   },
+   {
+    "value": "-90%",
+    "label": "manual typing"
+   },
+   {
+    "value": "<20 s",
+    "label": "per document"
+   }
+  ],
+  "stack": [
+   "Python",
+   "OpenAI",
+   "AWS Textract",
+   "Node.js",
+   "S3"
+  ]
+ },
+ {
+  "slug": "smart-notification-flows",
+  "name": "Smart Notification Flows",
+  "title": "Smart Notification Flows, alerts that know who needs what",
+  "label": "Internal",
+  "year": "2024",
+  "role": "Lead AI Engineer",
+  "duration": "6 weeks",
+  "big": "Smart Alerts",
+  "screen": "The right ping, right person",
+  "tone": 1,
+  "summary": "A flow engine that decides who should hear about an event, on which channel, and how it should be worded.",
+  "challenge": "Teams were flooded with alerts, so important ones were missed and everyone muted the channel.",
+  "solution": "Event rules, LLM-written summaries, de-duplication and escalation paths across Slack, email and WhatsApp.",
+  "features": [
+   "Rules and priority scoring",
+   "AI-written alert summaries",
+   "De-duplication and digests",
+   "Escalation if unacknowledged"
+  ],
+  "results": [
+   {
+    "value": "-65%",
+    "label": "alert noise"
+   },
+   {
+    "value": "<1 min",
+    "label": "critical alert delivery"
+   },
+   {
+    "value": "3",
+    "label": "channels unified"
+   }
+  ],
+  "stack": [
+   "n8n",
+   "OpenAI",
+   "Slack API",
+   "Node.js",
+   "Redis"
+  ]
+ },
+ {
+  "slug": "ai-code-review-bot",
+  "name": "Code Review Bot",
+  "title": "Code Review Bot, AI review and release notes on every pull request",
+  "label": "Internal",
+  "year": "2025",
+  "role": "Lead AI Engineer",
+  "duration": "1 month",
+  "big": "Review Bot",
+  "screen": "Every PR, reviewed in minutes",
+  "tone": 3,
+  "summary": "A bot that reviews pull requests, flags risky changes and writes release notes automatically.",
+  "challenge": "Reviews queued for days, and release notes were written from memory at the last minute.",
+  "solution": "A GitHub workflow that sends diffs to an LLM with team rules, posts inline comments and compiles changelogs on merge.",
+  "features": [
+   "Inline review comments",
+   "Risk flags for sensitive files",
+   "Automatic release notes",
+   "Team style rules"
+  ],
+  "results": [
+   {
+    "value": "-50%",
+    "label": "review wait time"
+   },
+   {
+    "value": "100%",
+    "label": "PRs get a first review"
+   },
+   {
+    "value": "0",
+    "label": "manual changelogs"
+   }
+  ],
+  "stack": [
+   "GitHub Actions",
+   "TypeScript",
+   "Claude",
+   "Node.js",
+   "Docker"
+  ]
+ },
+ {
+  "slug": "agent-workflow-toolkit",
+  "name": "Agent Workflow Toolkit",
+  "title": "Agent Workflow Toolkit, reusable building blocks for AI automations",
+  "label": "Open source",
+  "year": "2025",
+  "role": "Creator & Maintainer",
+  "duration": "6 weeks",
+  "big": "Toolkit",
+  "screen": "Build agents from parts",
+  "tone": 5,
+  "summary": "An open source toolkit of tested building blocks for retries, memory, tool calling and human approval.",
+  "challenge": "Every automation project rebuilt the same retry logic, memory handling and approval steps from scratch.",
+  "solution": "A small library of composable steps with typed inputs, built-in retries, state persistence and pluggable models.",
+  "features": [
+   "Composable workflow steps",
+   "Retries and state persistence",
+   "Pluggable model providers",
+   "Human approval step"
+  ],
+  "results": [
+   {
+    "value": "15",
+    "label": "ready-made steps"
+   },
+   {
+    "value": "-70%",
+    "label": "build time per workflow"
+   },
+   {
+    "value": "MIT",
+    "label": "open source license"
+   }
+  ],
+  "stack": [
+   "Python",
+   "TypeScript",
+   "Redis",
+   "PostgreSQL",
+   "Docker"
+  ],
+  "link": {
+   "label": "View on GitHub",
+   "href": "#"
+  }
+ },
+ {
+  "slug": "llm-gateway",
+  "name": "LLM Gateway",
+  "title": "LLM Gateway, one endpoint for every model with cost control",
+  "label": "Internal",
+  "year": "2025",
+  "role": "Lead AI Engineer",
+  "duration": "2 months",
+  "big": "LLM Gateway",
+  "screen": "One endpoint, every model",
+  "tone": 2,
+  "summary": "A gateway that routes requests across model providers, caches answers and enforces budgets per team.",
+  "challenge": "Teams called models directly, so costs were opaque, outages broke features and keys were scattered everywhere.",
+  "solution": "A single API with model routing and fallbacks, semantic caching, per-team budgets, key management and usage logs.",
+  "features": [
+   "Model routing and fallbacks",
+   "Semantic response caching",
+   "Budgets and rate limits",
+   "Central key management"
+  ],
+  "results": [
+   {
+    "value": "-42%",
+    "label": "model spend"
+   },
+   {
+    "value": "99.95%",
+    "label": "availability with fallbacks"
+   },
+   {
+    "value": "6",
+    "label": "providers supported"
+   }
+  ],
+  "stack": [
+   "Python",
+   "FastAPI",
+   "Redis",
+   "PostgreSQL",
+   "Docker",
+   "AWS"
+  ]
+ },
+ {
+  "slug": "ai-chat-widget",
+  "name": "AI Chat Widget",
+  "title": "AI Chat Widget, a website assistant that captures and qualifies visitors",
+  "label": "Product",
+  "year": "2024",
+  "role": "Founder & Lead AI Engineer",
+  "duration": "2 months",
+  "big": "Chat Widget",
+  "screen": "Visitors become booked calls",
+  "tone": 4,
+  "summary": "An embeddable AI chat that answers visitors, qualifies them and books meetings straight onto your calendar.",
+  "challenge": "Visitors left websites without answers, and forms captured only a fraction of real interest.",
+  "solution": "A lightweight embed with a retrieval-backed assistant, qualification questions and calendar booking with CRM sync.",
+  "features": [
+   "One-line embed",
+   "Answers from your content",
+   "Qualification and routing",
+   "Calendar booking"
+  ],
+  "results": [
+   {
+    "value": "+3x",
+    "label": "leads captured"
+   },
+   {
+    "value": "<1 s",
+    "label": "reply time"
+   },
+   {
+    "value": "1 line",
+    "label": "to install"
+   }
+  ],
+  "stack": [
+   "TypeScript",
+   "Next.js",
+   "OpenAI",
+   "Node.js",
+   "PostgreSQL"
+  ]
+ },
+ {
+  "slug": "invoice-automation",
+  "name": "Invoice Automation",
+  "title": "Invoice Automation, from inbox to approved payment",
+  "label": "Client",
+  "year": "2023",
+  "role": "AI Automation Lead",
+  "duration": "3 months",
+  "big": "Invoice AI",
+  "screen": "Inbox to payment, automated",
+  "tone": 1,
+  "summary": "An automation that reads supplier invoices, checks them against orders and routes approvals.",
+  "challenge": "Invoices arrived by email in dozens of formats and sat in inboxes waiting for someone to enter them.",
+  "solution": "Email listeners, LLM extraction, purchase-order matching, approval routing and posting to the accounting system.",
+  "features": [
+   "Reads invoices from email",
+   "Purchase-order matching",
+   "Approval routing",
+   "Posts to accounting software"
+  ],
+  "results": [
+   {
+    "value": "-85%",
+    "label": "processing time"
+   },
+   {
+    "value": "98%",
+    "label": "extraction accuracy"
+   },
+   {
+    "value": "0",
+    "label": "duplicate payments"
+   }
+  ],
+  "stack": [
+   "n8n",
+   "Python",
+   "OpenAI",
+   "QuickBooks API",
+   "Gmail API"
+  ]
+ },
+ {
+  "slug": "agent-observability",
+  "name": "Agent Observability",
+  "title": "Agent Observability, tracing and evals for AI automations",
+  "label": "Internal",
+  "year": "2025",
+  "role": "Lead AI Engineer",
+  "duration": "1 month",
+  "big": "Observability",
+  "screen": "See every step and token",
+  "tone": 3,
+  "summary": "A monitoring layer that traces each agent run, scores output quality and alerts on drift, cost spikes and failures.",
+  "challenge": "When an automation misbehaved nobody could tell which step, prompt or model caused it.",
+  "solution": "Run tracing, prompt versioning, automated evals against test sets, cost dashboards and alerts.",
+  "features": [
+   "Step-by-step run traces",
+   "Prompt versioning",
+   "Automated quality evals",
+   "Cost and drift alerts"
+  ],
+  "results": [
+   {
+    "value": "-80%",
+    "label": "time to debug a failure"
+   },
+   {
+    "value": "100%",
+    "label": "runs traced"
+   },
+   {
+    "value": "Daily",
+    "label": "evals on every prompt"
+   }
+  ],
+  "stack": [
+   "Python",
+   "Langfuse",
+   "PostgreSQL",
+   "Grafana",
+   "Docker"
+  ]
+ }
+]

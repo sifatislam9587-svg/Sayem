@@ -1,0 +1,7 @@
+{
+  "name": "sayem-sifat-portfolio-generator",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node build.mjs" },
+  "devDependencies": { "@tailwindcss/cli": "^4.1.0", "lucide-static": "^0.468.0", "tailwindcss": "^4.1.0" }
+}

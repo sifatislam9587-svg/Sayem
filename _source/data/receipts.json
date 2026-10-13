@@ -1,0 +1,41 @@
+[
+ {
+  "tag": "40 hrs to 2 hrs",
+  "title": "Ops automation that removed a week of manual work",
+  "what": "Mapped every recurring task in an operations team, then replaced the copy-paste, reporting and handoffs with monitored AI workflows.",
+  "proof": "Run logs, failure alerts and weekly time savings are tracked and shareable.",
+  "how": [
+   "Audited the process and ranked tasks by time lost",
+   "Built trigger-based workflows with LLM reading and writing steps",
+   "Added alerts, retries and a human review step for edge cases"
+  ],
+  "cta": "Read the case study",
+  "slug": "ops-time-reduction"
+ },
+ {
+  "tag": "Case study",
+  "title": "WhatsApp AI assistant for a regional carrier",
+  "what": "Built an assistant that answers customers, qualifies leads and hands warm conversations to the sales team, around the clock.",
+  "proof": "Reply times, qualified-lead counts and agent workload are measured before and after launch.",
+  "how": [
+   "Designed approved conversation flows on the WhatsApp Business API",
+   "Connected CRM lookups so replies use real customer data",
+   "Set up live handoff to a human agent with the chat summary"
+  ],
+  "cta": "Read the case study",
+  "slug": "whatsapp-ai-assistant"
+ },
+ {
+  "tag": "Zero unsafe actions",
+  "title": "Agent guardrails starter kit",
+  "what": "An open source kit that puts permission checks, output validation and audit logs between an AI agent and its tools.",
+  "proof": "The test suite throws adversarial prompts at the agent and fails the build if anything unsafe gets through.",
+  "how": [
+   "Wrote per-tool policies that approve or block each action",
+   "Validated every output against a strict schema",
+   "Added spend and loop limits with a tamper-evident log"
+  ],
+  "cta": "View the case study",
+  "slug": "agent-guardrails-kit"
+ }
+]
