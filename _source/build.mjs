@@ -126,15 +126,14 @@ function page({ title, description, depth, active, body, bodyClass = '' }) {
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:type" content="website">
-<link rel="icon" href="${r}assets/images/icon-light-32x32.png" type="image/png" media="(prefers-color-scheme: light)">
-<link rel="icon" href="${r}assets/images/icon-dark-32x32.png" type="image/png" media="(prefers-color-scheme: dark)">
-<link rel="icon" href="${r}assets/images/icon.svg" type="image/svg+xml">
+<link rel="icon" href="${r}favicon.ico" sizes="any">
+<link rel="icon" href="${r}assets/images/favicon-32x32.png" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="${r}assets/images/apple-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <script>
-(function(){var d=document.documentElement;d.classList.add('js');try{if(localStorage.getItem('theme')!=='light'){d.classList.add('dark');}}catch(e){}
+(function(){var d=document.documentElement;d.classList.add('js');try{if(localStorage.getItem('theme')==='dark'){d.classList.add('dark');}}catch(e){}
 // Safety net: if main.js never loads, show everything instead of leaving hidden animation states.
 window.__jsGuard=setTimeout(function(){d.classList.remove('js');},4000);})();
 </script>
